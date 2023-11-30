@@ -10,8 +10,10 @@ namespace Example001_HelloWorld.Example003_Sum
     {
         static void Main(string[] args)
         {
-            int numberA = 23;
-            int numberB = 78;
+            int numberA = new Random().Next(1, 10);
+            Console.WriteLine(numberA);
+            int numberB = new Random().Next(0, 20);
+            Console.WriteLine(numberB);
             int result = numberA + numberB;
             Console.WriteLine(result);
             Console.ReadLine();

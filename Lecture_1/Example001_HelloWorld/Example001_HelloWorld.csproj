@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Example001_HelloWorld.Example006_Base.Class1</StartupObject>
+    <StartupObject>Example001_HelloWorld.Example006_Magic.Class1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Example004_Double\Program.cs" />
     <Compile Include="Example005_Condition_if_else\Class1.cs" />
     <Compile Include="Example006_Base\Class1.cs" />
+    <Compile Include="Example006_Magic\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
